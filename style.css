@@ -1,0 +1,28 @@
+.container{
+    height: 100vh;
+    padding: 5px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#box1{
+    font-size: 50px;
+    color: rgb(218, 173, 237);
+    font-family: "Playwrite AR";
+    text-decoration-style: st;
+}
+#box2{
+    border: 1px solid black;
+    font-size: 70px;
+    color: red;
+}
+#box3{
+    margin-top: 50px;
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    font-size: 70px;
+    border: 1px solid wheat;
+}
