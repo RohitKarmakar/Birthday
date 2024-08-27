@@ -1,3 +1,4 @@
+
 .container{
     height: 100vh;
     box-sizing: border-box;
@@ -12,30 +13,55 @@
 #box1{
     font-size: 50px;
     margin-bottom: 5px;
-    color: rgb(218, 173, 237);
+    color: rgb(253, 253, 253);
     font-family: "Playwrite AR";
-    text-decoration-style: st;
+    animation: box1 3s ;
 }
+
+  @keyframes box1 {
+    from { transform: translateX(-100%); }
+    to { transform: translateX(0); }
+}
+
 @media  (max-width: 600px) {
     #box1 {
       font-size: 25px;
   }
 }
+
 #box2{
     border: 1px solid black;
     font-size: 70px;
     color: red;
 }
+
 @media  (max-width: 600px) {
     #box2 {
       font-size: 35px;
   }
 }
+
 #box3{
     margin-top: 50px;
-    /* height: 300px; */
     width: 250px;
-    border: 1px solid black;
+    height: 322px;
     font-size: 70px;
-    /* border: 1px solid wheat; */
-}
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px rgb(210, 2, 2), -3px -3px 20px rgb(210, 2, 207);
+    /* opacity: 0; */
+    transform: translatey(20px); /* Move it down slightly */
+    animation: box3 3s ease-in-out backwards;
+    animation-delay: 1s; /* Delay the animation by 3 seconds */
+        }
+/* Define the keyframes for the fade-in animation */
+        @keyframes box3 {
+            from {
+                opacity: 0;
+                transform: translateY(0); /* Move it back to its original position */
+            }
+            to {
+                opacity: 1;
+                transform: translateY(20px); /* Move it back to its original position */
+            }
+        }
