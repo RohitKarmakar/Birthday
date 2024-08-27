@@ -105,8 +105,8 @@
     color:  rgb(245, 156, 214);
     margin-top: px;
     padding-left: 2px;
-    transform: translatey(20px);
-    animation: box5 6s backwards;
+    transform: translatey(50px);
+    animation: box5 8s backwards;
     animation-delay: 3s;
 }
 @keyframes box5 {
@@ -126,7 +126,7 @@
     color: blanchedalmond;
     align-self: flex-end;
     transform: translatey(20px);
-    animation: box6 6s backwards;
+    animation: box6 8s backwards;
     animation-delay: 3s;
 }
 @keyframes box6 {
